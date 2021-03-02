@@ -153,7 +153,7 @@ public:
 
 private:
   T* buf_ = nullptr;
-  std::size_t len_;
+  std::size_t len_ = 0;
 };
 
 #endif // _CBUFFER_H__
